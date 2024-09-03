@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+
+<body>
+    <header>
+        <h1>Contact</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home Page</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <p><i>Guldbergsgade 29N 2200 Copenhagen</i></p>
+            <a href="tel:20825370"><i>20 82 53 70</i></a>
+            <a href="mailto:info@resturantkea.dk"><i>E-mail: info@resturantkea.dk</i></a>
+            <figure>
+                <img src="assets/map.jpg" alt="Map of kea">
+            </figure>
+        </section>
+        <form>
+            <fieldset>
+                <legend>Contact form</legend>
+
+                <div>
+                    <label for="name">Full name</label>
+                    <input type="text" name="name" id="name" required>
+                </div>
+
+                <div>
+                    <label for="phone">Phone no.</label>
+                    <input type="tel" name="phone" id="phone" required>
+                </div>
+
+                <div>
+                    <label for="mail">E-mail</label>
+                    <input type="email" name="email" id="mail" required>
+                </div>
+
+                <div>
+                    <label for="persons">Persons</label>
+                    <input type="number" name="persons" id="persons" required>
+                </div>
+
+                <div>
+                    <label for="date">Date and time</label>
+                    <input type="datetime-local" name="dateTime" id="date" required>
+                </div>
+
+                <div>
+                    <label for="info">Further information</label>
+                    <textarea name="information" id="info"></textarea>
+                </div>
+
+                <button>Send</button>
+
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        &copy; 2024 KEA development
+    </footer>
+</body>
+
+</html>
